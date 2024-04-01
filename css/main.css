@@ -13,9 +13,18 @@
     background-size: cover;
     min-height: 700px;
   }
+
+  .img-fluid {
+    max-width: 100%; /* Ajusta el ancho máximo al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    image-rendering: -webkit-optimize-contrast; /* Mejora la calidad de visualización en navegadores webkit */
+    image-rendering: crisp-edges; /* Para navegadores modernos */
+    image-rendering: pixelated; /* Para navegadores que soportan la propiedad pixelated */
+    border-radius: 10px; /* Agrega bordes redondeados pero mantiene la forma rectangular */
+  }
   
   .background-overlay {
-    background: rgba(48, 51, 107,.7);
+    background: rgba(31, 41, 36, 0.81);
     top: 0;
     left: 0;
     width: 100%;
@@ -27,5 +36,5 @@
   }
   
   .team, footer {
-    background: #30336b;
+    background: #306b3d;
   }
