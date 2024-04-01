@@ -1,40 +1,40 @@
 .navbar {
-    box-shadow: 2px 2px 5px #000;
-    opacity: 0.9;
-  }
-  
-  .navbar .nav-item .nav-link {
-    color: #fff;
-  }
-  
-  .main-header {
-    position: relative;
-    background: url(../img/background.jpg);
-    background-size: cover;
-    min-height: 700px;
-  }
+  box-shadow: 2px 2px 5px #000; /* Agrega una sombra al navbar con desplazamiento horizontal de 2px, desplazamiento vertical de 2px y difuminación de 5px, utilizando un color negro (#000) */
+  opacity: 0.9; /* Establece la opacidad del navbar al 90% */
+}
 
-  .img-fluid {
-    max-width: 100%; /* Ajusta el ancho máximo al tamaño del contenedor */
-    height: auto; /* Mantiene la proporción de aspecto */
-    image-rendering: -webkit-optimize-contrast; /* Mejora la calidad de visualización en navegadores webkit */
-    image-rendering: crisp-edges; /* Para navegadores modernos */
-    image-rendering: pixelated; /* Para navegadores que soportan la propiedad pixelated */
-    border-radius: 10px; /* Agrega bordes redondeados pero mantiene la forma rectangular */
-  }
-  
-  .background-overlay {
-    background: rgba(31, 41, 36, 0.81);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .form-control, .btn{
-    border-radius: 0;
-  }
-  
-  .team, footer {
-    background: #306b3d;
-  }
+.navbar .nav-item .nav-link {
+  color: #fff; /* Establece el color del texto de los enlaces del navbar como blanco (#fff) */
+}
+
+.main-header {
+  position: relative; /* Establece la posición del elemento principal como relativa con respecto a su contenedor padre */
+  background: url(../img/background.jpg); /* Establece una imagen de fondo para el encabezado principal */
+  background-size: cover; /* Hace que la imagen de fondo cubra todo el área del encabezado */
+  min-height: 700px; /* Establece la altura mínima del encabezado principal en 700 píxeles */
+}
+
+.img-fluid {
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen al tamaño del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  image-rendering: -webkit-optimize-contrast; /* Mejora la calidad de visualización en navegadores webkit */
+  image-rendering: crisp-edges; /* Proporciona bordes nítidos en navegadores modernos */
+  image-rendering: pixelated; /* Muestra la imagen con píxeles visibles para navegadores compatibles */
+  border-radius: 10px; /* Agrega bordes redondeados a la imagen con un radio de 10 píxeles */
+}
+
+.background-overlay {
+  background: rgba(31, 41, 36, 0.81); /* Establece un color de fondo semitransparente utilizando el modelo de color RGBA */
+  top: 0; /* Coloca el elemento en la parte superior de su contenedor */
+  left: 0; /* Coloca el elemento en el extremo izquierdo de su contenedor */
+  width: 100%; /* Establece el ancho del elemento al 100% del ancho del contenedor */
+  height: 100%; /* Establece la altura del elemento al 100% de la altura del contenedor */
+}
+
+.form-control, .btn{
+  border-radius: 0; /* Elimina cualquier borde redondeado predeterminado de los controles de formulario y los botones */
+}
+
+.team, footer {
+  background: #306b3d; /* Establece el color de fondo de la sección de equipo y del pie de página como un verde oscuro (#306b3d) */
+}
