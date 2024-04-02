@@ -36,5 +36,32 @@
 }
 
 .team, footer {
-  background: #306b3d; /* Establece el color de fondo de la sección de equipo y del pie de página como un verde oscuro (#306b3d) */
+  background: #242342; /* Establece el color de fondo de la sección de equipo y del pie de página como un verde oscuro (#306b3d) */
+}
+
+/* Estilos para las tarjetas */
+.custom-card {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Fondo blanco para las tarjetas */
+  display: flex; /* Utilizamos flexbox para alinear las tarjetas */
+}
+
+.custom-card-body {
+  padding: 20px;
+  flex: 1; /* Hace que todas las tarjetas tengan la misma altura */
+}
+
+.custom-card-img {
+  width: 150px; /* Ancho fijo para las imágenes */
+  height: 150px; /* Altura fija para las imágenes */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.custom-card-text {
+  font-size: 1rem;
+  color: #6c757d;
 }
