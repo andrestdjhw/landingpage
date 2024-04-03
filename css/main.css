@@ -15,12 +15,13 @@
 }
 
 .img-fluid {
-  max-width: 100%; /* Ajusta el ancho máximo de la imagen al tamaño del contenedor */
+  max-width: 130%; /* Ajusta el ancho máximo de la imagen al tamaño del contenedor */
   height: auto; /* Mantiene la proporción de aspecto de la imagen */
   image-rendering: -webkit-optimize-contrast; /* Mejora la calidad de visualización en navegadores webkit */
   image-rendering: crisp-edges; /* Proporciona bordes nítidos en navegadores modernos */
   image-rendering: pixelated; /* Muestra la imagen con píxeles visibles para navegadores compatibles */
   border-radius: 10px; /* Agrega bordes redondeados a la imagen con un radio de 10 píxeles */
+  min-height: 650px;
 }
 
 .background-overlay {
@@ -29,6 +30,7 @@
   left: 0; /* Coloca el elemento en el extremo izquierdo de su contenedor */
   width: 100%; /* Establece el ancho del elemento al 100% del ancho del contenedor */
   height: 100%; /* Establece la altura del elemento al 100% de la altura del contenedor */
+  min-height: 700px;
 }
 
 .form-control, .btn{
@@ -66,3 +68,8 @@
   color: #6c757d;
 }
 
+.col-lg-3.align-self-center img {
+  width: 200px; /* Ajusta el ancho del icono según tu preferencia */
+  margin-top: 10px; /* Ajusta la distancia del icono desde la parte superior del contenedor */
+  margin-left: 120px;
+}
