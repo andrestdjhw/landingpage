@@ -1,11 +1,70 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+nav {
   box-shadow: 2px 2px 5px #000; /* Agrega una sombra al navbar con desplazamiento horizontal de 2px, desplazamiento vertical de 2px y difuminación de 5px, utilizando un color negro (#000) */
   opacity: 0.9; /* Establece la opacidad del navbar al 90% */
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #34343b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
 }
 
-.navbar .nav-item .nav-link {
-  color: #fff; /* Establece el color del texto de los enlaces del navbar como blanco (#fff) */
+.navbar-brand {
+  color: #34343b;
+  font-size: 35px;
+  font-weight: 600;
 }
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li{
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+  color: #34343b;
+  background: #fff;
+}
+
+nav .menu-btn i{
+  color: #34343b;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+/* .navbar .nav-item .nav-link {
+  color: #fff; /* Establece el color del texto de los enlaces del navbar como blanco (#fff) 
+} */
 
 .main-header {
   position: relative; /* Establece la posición del elemento principal como relativa con respecto a su contenedor padre */
@@ -43,7 +102,7 @@
 }
 
 .team, footer {
-  background: #242342; /* Establece el color de fondo de la sección de equipo y del pie de página como un verde oscuro (#306b3d) */
+  background: #34343b; /* Establece el color de fondo de la sección de equipo y del pie de página como un verde oscuro (#306b3d) */
 }
 
 /* Estilos para las tarjetas */
